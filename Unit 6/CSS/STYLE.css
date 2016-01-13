@@ -4,7 +4,7 @@ header {
     padding: 20px;
 }
 nav {
-    background: #E8C66A;
+    background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
 }
@@ -13,7 +13,7 @@ aside {
     border: 1px black solid;
     padding: 20px;
 }
-article {
+article  {
     background-color: #E89C6C;
     border: 1px black solid;
     padding: 20px;
@@ -23,7 +23,7 @@ footer {
     border: 1px black solid;
     padding: 20px;
 }
-div {
+div{
     background-color: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
@@ -33,7 +33,7 @@ section {
     border: 1px black solid;
     padding: 20px;
 }
-two_column {
+#two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
@@ -42,9 +42,21 @@ two_column {
     background-color: #E582A2;
     border: 1px black solid;
     padding: 20px;
+    float: left;
+    width: 30%;
 }
 #right {
     background-color: #E55B88;
     border: 1px black solid;
     padding: 20px;
+    float: right;   
+    width: 59%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
